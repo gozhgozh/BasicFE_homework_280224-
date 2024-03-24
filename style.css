@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a{
+    display: inline-block;
+    margin: 15px;
+}
+
+.button-1{
+    color: blue;
+}
+
+.button-1:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.button-2{
+    color: red;
+    text-decoration: underline;
+}
+
+.button-2:hover{
+    color: blue;
+    text-decoration: line-through;
+}
+
+.button-3{
+    color: black;
+}
+
+.button-3:hover{
+    color: red;
+    text-decoration: overline;
+}
